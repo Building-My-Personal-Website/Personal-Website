@@ -43,6 +43,7 @@ nav {
 }
 
 .menu {
+  margin-left: 20%;
   display: flex;
 }
 .menu li a {
@@ -223,7 +224,7 @@ h2 {
   justify-content: center;
   padding-top: 40px;
   background-color: #e6e6e6;
-  padding-bottom: 5%;
+  padding-bottom: 0%;
 }
 .p-heading h1 {
   color: #292929;
@@ -337,7 +338,7 @@ h2 {
   padding-bottom: 5%;
 }
 .p-container-tech {
-  width: 90%;
+  width: 20%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -476,9 +477,12 @@ p {
   background-color: #f4f7ff;
   margin: 20px 0px;
   box-sizing: border-box;
+  background-color: #ffc0cb;
   box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.4);
 }
 .c-b-heading {
+  margin-top: 6%;
+
   font-size: 2rem;
   color: #1e1e1e;
   font-family: calibri;
